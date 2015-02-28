@@ -13,6 +13,7 @@
 		70BD23691AA26E6D004B6C43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70BD23681AA26E6D004B6C43 /* Images.xcassets */; };
 		70BD236C1AA26E6D004B6C43 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70BD236A1AA26E6D004B6C43 /* LaunchScreen.xib */; };
 		70BD23781AA26E6D004B6C43 /* GoogleSearchByUISearchBar_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BD23771AA26E6D004B6C43 /* GoogleSearchByUISearchBar_SwiftTests.swift */; };
+		70BD23821AA26EC3004B6C43 /* GoogleSearchViewCooontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BD23811AA26EC3004B6C43 /* GoogleSearchViewCooontroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		70BD23711AA26E6D004B6C43 /* GoogleSearchByUISearchBar_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleSearchByUISearchBar_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70BD23761AA26E6D004B6C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70BD23771AA26E6D004B6C43 /* GoogleSearchByUISearchBar_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSearchByUISearchBar_SwiftTests.swift; sourceTree = "<group>"; };
+		70BD23811AA26EC3004B6C43 /* GoogleSearchViewCooontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSearchViewCooontroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				70BD23611AA26E6C004B6C43 /* AppDelegate.swift */,
 				70BD23631AA26E6C004B6C43 /* ViewController.swift */,
 				70BD23651AA26E6C004B6C43 /* Main.storyboard */,
+				70BD23811AA26EC3004B6C43 /* GoogleSearchViewCooontroller.swift */,
 				70BD23681AA26E6D004B6C43 /* Images.xcassets */,
 				70BD236A1AA26E6D004B6C43 /* LaunchScreen.xib */,
 				70BD235F1AA26E6C004B6C43 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70BD23821AA26EC3004B6C43 /* GoogleSearchViewCooontroller.swift in Sources */,
 				70BD23641AA26E6C004B6C43 /* ViewController.swift in Sources */,
 				70BD23621AA26E6C004B6C43 /* AppDelegate.swift in Sources */,
 			);
