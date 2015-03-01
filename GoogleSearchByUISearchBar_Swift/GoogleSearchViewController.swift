@@ -44,19 +44,19 @@ class GoogleSearchViewColtroller : UIViewController
             url = "http://www.google.co.jp/m/search?q=" + query!
         }
         
-        
-        
-        var request:NSURLRequest = NSURLRequest(URL:NSURL(fileURLWithPath:url!)!)
+        var request:NSURLRequest = NSURLRequest(URL:NSURL(string:url!)!)
         
         webView.loadRequest(request)
         
         btn = UIButton()
         btn?.frame = CGRectMake(0, 20, self.view.bounds.size.width, 60)
-        btn?.backgroundColor = UIColor.whiteColor()
+        btn?.backgroundColor = UIColor.grayColor()
+        
         btn?.setTitle("戻る", forState: UIControlState.Normal)
         btn?.setTitle("戻る", forState: UIControlState.Highlighted)
         btn?.setTitle("戻る", forState: UIControlState.Disabled)
         btn?.addTarget(self, action:"ReturnBack" , forControlEvents: UIControlEvents.TouchDown)
+        self.view.addSubview(btn!)
     }
     func ReturnBack(){
         self.dismissViewControllerAnimated(true, completion: nil)

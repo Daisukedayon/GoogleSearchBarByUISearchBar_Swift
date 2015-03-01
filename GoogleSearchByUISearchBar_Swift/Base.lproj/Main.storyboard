@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -19,15 +20,17 @@
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pR4-2A-jVL">
                                 <rect key="frame" x="0.0" y="219" width="600" height="162"/>
                             </pickerView>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O7h-Du-8Qc">
+                            <searchBar contentMode="redraw" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O7h-Du-8Qc">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="pR4-2A-jVL" secondAttribute="centerX" id="VQg-R6-PeS"/>
-                            <constraint firstAttribute="centerY" secondItem="pR4-2A-jVL" secondAttribute="centerY" id="WaW-v3-CF4"/>
+                            <constraint firstAttribute="centerX" secondItem="pR4-2A-jVL" secondAttribute="centerX" id="D6H-G5-LgW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="O7h-Du-8Qc" secondAttribute="trailing" constant="-16" id="Pxn-0L-5wJ"/>
+                            <constraint firstAttribute="centerY" secondItem="pR4-2A-jVL" secondAttribute="centerY" id="Rcf-jm-wFE"/>
+                            <constraint firstItem="O7h-Du-8Qc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="yEc-1T-NRR"/>
                         </constraints>
                     </view>
                     <connections>
